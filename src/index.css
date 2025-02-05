@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Arial", "serif";
+  --font-lead: "dunkin_sans";
+  --font-heading: "asdonuts";
+
+  --color-*: initial;
+  --color-yellow: #ffc529;
+  --color-primary: #fe7240;
+  --color-dark: #272d2f;
+  --color-light: #d7d7d7;
+  --color-bluee: #03045e;
+  --color-purple: #9c89b8;
+  --color-green: #588157;
+  --color-red: #c1121f;
+  --color-blue: #669bbc;
+}
+
+@font-face {
+  font-family: "asdonuts";
+  src: url("./assets/asdonuts/Asdonuts.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "dunkin_sans";
+  src: url("./assets/dunkin/dunkin_sans.otf") format("truetype");
+}
