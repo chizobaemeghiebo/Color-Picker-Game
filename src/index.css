@@ -9,12 +9,12 @@
   --color-yellow: #ffc529;
   --color-primary: #fe7240;
   --color-dark: #272d2f;
-  --color-light: #d7d7d7;
-  --color-bluee: #03045e;
+  --color-white: #d7d7d7;
+  --color-blue: #03045e;
   --color-purple: #9c89b8;
   --color-green: #588157;
   --color-red: #c1121f;
-  --color-blue: #669bbc;
+  /* --color-blue: #669bbc; */
 }
 
 @font-face {
