@@ -26,6 +26,7 @@ function App() {
       setScore(score + 1);
       setStatus("Correct! You win ✨");
     } else {
+      setScore(0);
       setStatus("Oops! Try that again 😒");
     }
   };
@@ -33,13 +34,6 @@ function App() {
   const handleChange = () => {
     console.log("I have been changed");
   };
-
-  //   const [showBorder, setShowBorder] = React.useState(false);
-
-  //   return (
-  //     <button style={{ border: showBorder ? "10px solid pink" : "none" }} onClick={() => setShowBorder(!showBorder)}>Clicking this will show or hide the border</button>
-  //   );
-  // };
 
   return (
     <>
