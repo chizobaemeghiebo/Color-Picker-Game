@@ -76,7 +76,7 @@ function App() {
             </p>
             <p
               data-testid="gameStatus"
-              className="animate-bounce text-dark font-lead text-sm"
+              className="animate-bounce animate-duration-150 repeat-0 text-dark font-lead text-sm"
             >
               {status}
             </p>
